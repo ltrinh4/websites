@@ -1,0 +1,53 @@
+div {
+  background-image: url(https://data.whicdn.com/images/291828623/original.gif);
+  background-size: cover;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+  grid-gap: 5px;
+  text-align: center;
+  margin-left: left;
+  margin-right: right;
+
+}
+div  {
+  color: red;
+  font-family: courier;
+  font-size: 100%;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+
+}
+.madoka {
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end: 4;
+}
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 8;
+  border: 4px dashed white;
+  background-color: #b2b2b2;
+  background-color: white;
+}
+.sidebar {
+  display: grid;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  height: 600px;
+  border: 4px dotted rgb(226, 60, 110);
+}
+.title {
+  border: 4px dotted rgb(141, 25, 218);
+  height: 500px;
+}
+.links {
+  border: 4px dotted blue;
+}
